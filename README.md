@@ -1,4 +1,4 @@
-# 💅 ระบบแนะนำสีทาเล็บจากโทนผิว (Nail Color Recommender)
+# ระบบแนะนำสีทาเล็บจากโทนผิว (Nail Color Recommender)
 
 โปรเจกต์รายวิชา **CP352301 Script Programming** — Final Project
 แอปพลิเคชันวิเคราะห์ภาพมือ/เล็บด้วย **Computer Vision (OpenCV)** เพื่อประเมิน
@@ -126,15 +126,16 @@ pytest            # หรือ  python -m pytest
 
 | สมาชิก | รหัสนักศึกษา | Sprint 1 | Sprint 2 | Sprint 3 | Final |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| _____________ | __________ | Planner | Coder | Debugger | Planner |
-| _____________ | __________ | Coder | Debugger | Planner | Coder |
-| _____________ | __________ | Debugger | Planner | Coder | Debugger |
+| ชาคริต อ่วมอ่ำ |  | Planner | Coder | Debugger | Planner |
+| อภิสรา นครสุข | __________ | Coder | Debugger | Planner | Coder |
+| เมธาวี สิทธิชัยเนตร | __________ | Coder | Debugger | Planner | Coder |
+| สาริษฐ์ บุตรช่วง | __________ | Debugger | Planner | Coder | Debugger |
 
 > _(เติมชื่อ/รหัส และปรับการหมุนเวียนให้ตรงกับที่กลุ่มทำจริง)_
 
 ## 10. ฟีเจอร์และสถานะการพัฒนา (Features & Status)
 
-### 🟢 ทำเสร็จแล้ว (Sprint 1–2)
+###  ทำเสร็จแล้ว (Sprint 1–2)
 - วิเคราะห์โทนผิวจากภาพด้วย OpenCV (skin mask + ITA ใน CIE Lab)
 - แนะนำพาเลตสีแบบ rule-based ปรับตามทรง/ความยาวเล็บ (data-driven จาก JSON)
 - ค้นหา / กรองตามแท็ก / เรียงลำดับคำแนะนำ
@@ -142,7 +143,7 @@ pytest            # หรือ  python -m pytest
 - Exception handling ครบ (ไฟล์ไม่พบ/ไม่ใช่รูป/Ctrl+C/Ctrl+D)
 - ชุดทดสอบอัตโนมัติ 15 เคส (ผ่าน 100%) + CI รัน pytest ทุก push/PR
 
-### 🟡 ตามแผน (Roadmap)
+###  ตามแผน (Roadmap)
 - **Sprint 3** — ปรับความแม่นยำการตรวจจับเล็บ (แยกจากผิว), เก็บ Edge Cases เพิ่ม
 - **Final** — CI/CD เต็มรูปแบบ, ต่อยอด AI (virtual try-on / โมเดลจำแนกโทนผิว)
 
