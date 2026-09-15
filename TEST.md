@@ -1,4 +1,4 @@
-# 🧪 System Quality Assurance & Testing (TEST.md)
+#  System Quality Assurance & Testing (TEST.md)
 
 โปรเจกต์ **ระบบแนะนำสีทาเล็บจากโทนผิว** มีการทดสอบทั้งแบบอัตโนมัติ (pytest)
 และแบบ manual test cases เพื่อประกันคุณภาพ
@@ -7,7 +7,7 @@
 
 ---
 
-## 🚀 การรันชุดทดสอบอัตโนมัติ (Automated Unit Testing)
+##  การรันชุดทดสอบอัตโนมัติ (Automated Unit Testing)
 
 ```bash
 pytest          # รันทั้งหมด
@@ -20,7 +20,7 @@ pytest -v       # แสดงรายละเอียดรายเทส
 - เครื่องมือแนะนำ: `suggest` (ปรับตามทรง/ความยาว), `search`, `filter_by_tag`, `sort`
 - การลบรายการซ้ำ (dedupe)
 
-## 🔍 การทดสอบด้วยมือ (Manual / Demo Testing)
+##  การทดสอบด้วยมือ (Manual / Demo Testing)
 
 | ประเภท | คำสั่ง / อินพุต | ผลที่คาดหวัง |
 |--------|-----------------|--------------|
@@ -31,7 +31,7 @@ pytest -v       # แสดงรายละเอียดรายเทส
 | ไฟล์ไม่ใช่รูป | `python main.py notes.txt` | "เปิดไฟล์รูปไม่ได้" ไม่ crash |
 | Interrupt | กด Ctrl+C / Ctrl+D | "ปิดระบบอย่างปลอดภัย" |
 
-## ✅ Definition of Done ด้านคุณภาพ
+##  Definition of Done ด้านคุณภาพ
 - ทุกฟีเจอร์มี unit test หรือ manual test case กำกับ
 - ไม่มีกรณีที่โปรแกรม crash เป็น traceback จาก input ของผู้ใช้
 - ชุดทดสอบอัตโนมัติต้องผ่าน 100% ก่อนเปิด Pull Request
