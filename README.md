@@ -126,10 +126,10 @@ pytest            # หรือ  python -m pytest
 
 | สมาชิก | รหัสนักศึกษา | Sprint 1 | Sprint 2 | Sprint 3 | Final |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| ชาคริต อ่วมอ่ำ |  | Planner | Coder | Debugger | Planner |
-| อภิสรา นครสุข | __________ | Coder | Debugger | Planner | Coder |
-| เมธาวี สิทธิชัยเนตร | __________ | Coder | Debugger | Planner | Coder |
-| สาริษฐ์ บุตรช่วง | __________ | Debugger | Planner | Coder | Debugger |
+| ชาคริต อ่วมอ่ำ | 663380555-8 | Planner | Coder | Debugger | Planner |
+| อภิสรา นครสุข | 663380578-6 | Coder | Debugger | Planner | Coder |
+| เมธาวี สิทธิชัยเนตร | 663380372-6 | Coder | Debugger | Planner | Coder |
+| สาริษฐ์ บุตรช่วง | 663380365-3 | Debugger | Planner | Coder | Debugger |
 
 > _(เติมชื่อ/รหัส และปรับการหมุนเวียนให้ตรงกับที่กลุ่มทำจริง)_
 
