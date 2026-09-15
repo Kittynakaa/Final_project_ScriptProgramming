@@ -1,4 +1,4 @@
-# 📓 Learning Log & Responsible AI Prompt Record
+#  Learning Log & Responsible AI Prompt Record
 
 **Project:** ระบบแนะนำสีทาเล็บจากโทนผิว (Nail Color Recommender)
 **รายวิชา:** CP352301 Script Programming
@@ -20,7 +20,7 @@ ITA) แล้วนำมาเขียน/ปรับ/ทดสอบเอ�
 
 ## 2. บันทึก Prompt และการตรวจสอบของทีม
 
-### 🔹 Prompt 1 — ประเมินโทนผิวด้วย ITA
+###  Prompt 1 — ประเมินโทนผิวด้วย ITA
 - **คำถามที่ใช้:**
   ```text
   อธิบายวิธีวัดโทนผิว (undertone) จากภาพด้วยค่า ITA ใน CIE Lab color space
@@ -31,7 +31,7 @@ ITA) แล้วนำมาเขียน/ปรับ/ทดสอบเอ�
 - **ทีมทำต่อ/ตรวจสอบเอง:** ทดสอบกับรูปจริงหลายรูป ปรับเกณฑ์ตัดสินให้เหมาะกับ
   ชุดข้อมูลของเรา และเขียน unit test `test_classify_ita_*` ยืนยันการแบ่งช่วง
 
-### 🔹 Prompt 2 — ตรวจจับบริเวณผิว (skin mask)
+###  Prompt 2 — ตรวจจับบริเวณผิว (skin mask)
 - **คำถามที่ใช้:**
   ```text
   วิธีทำ skin detection ด้วย OpenCV แบบง่ายด้วย YCrCb threshold และทำความสะอาด
@@ -43,7 +43,7 @@ ITA) แล้วนำมาเขียน/ปรับ/ทดสอบเอ�
 - **ทีมทำต่อ/ตรวจสอบเอง:** เพิ่มกรณีพิกเซลผิวน้อยเกินไป → คืน `unknown` แทนการ
   เดามั่ว และเขียนเทสต์ `test_undertone_unknown_when_no_skin`
 
-### 🔹 Prompt 3 — ออกแบบสถาปัตยกรรม OOP 3 เลเยอร์
+###  Prompt 3 — ออกแบบสถาปัตยกรรม OOP 3 เลเยอร์
 - **คำถามที่ใช้:**
   ```text
   ช่วยออกแบบโครงคลาสแบบ OOP แยก Presentation / Business Logic / Data Access
@@ -54,7 +54,7 @@ ITA) แล้วนำมาเขียน/ปรับ/ทดสอบเอ�
 - **ทีมทำต่อ/ตรวจสอบเอง:** นำมาปรับให้กฎเป็น data-driven (โหลดจาก JSON), เขียน
   โค้ดจริงและรันทดสอบครบทุกโมดูล
 
-### 🔹 Prompt 4 — จัดการข้อผิดพลาด (Exception Handling)
+###  Prompt 4 — จัดการข้อผิดพลาด (Exception Handling)
 - **คำถามที่ใช้:**
   ```text
   ควรดักข้อผิดพลาดอะไรบ้างในโปรแกรม CLI ที่อ่านรูปจากไฟล์
