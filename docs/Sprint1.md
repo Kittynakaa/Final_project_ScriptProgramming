@@ -3,7 +3,7 @@
 **Project Name:** ระบบแนะนำสีทาเล็บจากโทนผิว (Nail Color Recommender)
 **Sprint:** 1 (CLI & OOP Foundation) + 2 (Image Analysis & Core Features)
 **Team Members:**
-- Planner / Team Leader: ชาคริต อ่วมอ่ำ 
+- Planner : ชาคริต อ่วมอ่ำ 
 - Coder: อภิสรา นครสุข
 - Coder: เมธาวี สิทธิชัยเนตร 
 - Debugger: สาริษฐ์ บุตรช่วง
